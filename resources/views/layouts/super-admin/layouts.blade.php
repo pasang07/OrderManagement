@@ -1,0 +1,5 @@
+@include('layouts.super-admin.head')
+@include('layouts.super-admin.sidebar')
+@include('layouts.super-admin.header')
+@yield('content')
+@include('layouts.super-admin.footer')
